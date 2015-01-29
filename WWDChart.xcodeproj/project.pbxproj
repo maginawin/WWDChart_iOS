@@ -14,6 +14,13 @@
 		0803F8701A786B3B0069A51F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0803F86F1A786B3B0069A51F /* Images.xcassets */; };
 		0803F8731A786B3B0069A51F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0803F8711A786B3B0069A51F /* LaunchScreen.xib */; };
 		0803F87F1A786B3B0069A51F /* WWDChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803F87E1A786B3B0069A51F /* WWDChartTests.m */; };
+		0803F88B1A7870E60069A51F /* WWDCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803F88A1A7870E60069A51F /* WWDCircleChart.m */; };
+		0803F88E1A787E260069A51F /* WWDCircleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803F88D1A787E260069A51F /* WWDCircleChartViewController.m */; };
+		08CC04461A7A02EC00C3E6EF /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC04451A7A02EC00C3E6EF /* BarChartViewController.m */; };
+		08CC04491A7A034700C3E6EF /* WWDBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC04481A7A034700C3E6EF /* WWDBar.m */; };
+		08CC044C1A7A0C0800C3E6EF /* WWDBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC044B1A7A0C0800C3E6EF /* WWDBarChart.m */; };
+		08CC04521A7A181600C3E6EF /* MyBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC04511A7A181600C3E6EF /* MyBar.m */; };
+		08CC04551A7A28DF00C3E6EF /* MyBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC04541A7A28DF00C3E6EF /* MyBarChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,21 @@
 		0803F8781A786B3B0069A51F /* WWDChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0803F87D1A786B3B0069A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0803F87E1A786B3B0069A51F /* WWDChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDChartTests.m; sourceTree = "<group>"; };
+		0803F8891A7870E60069A51F /* WWDCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDCircleChart.h; sourceTree = "<group>"; };
+		0803F88A1A7870E60069A51F /* WWDCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDCircleChart.m; sourceTree = "<group>"; };
+		0803F88C1A787E260069A51F /* WWDCircleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDCircleChartViewController.h; sourceTree = "<group>"; };
+		0803F88D1A787E260069A51F /* WWDCircleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDCircleChartViewController.m; sourceTree = "<group>"; };
+		08CC04441A7A02EC00C3E6EF /* BarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
+		08CC04451A7A02EC00C3E6EF /* BarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
+		08CC04471A7A034700C3E6EF /* WWDBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDBar.h; sourceTree = "<group>"; };
+		08CC04481A7A034700C3E6EF /* WWDBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDBar.m; sourceTree = "<group>"; };
+		08CC044A1A7A0C0800C3E6EF /* WWDBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDBarChart.h; sourceTree = "<group>"; };
+		08CC044B1A7A0C0800C3E6EF /* WWDBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDBarChart.m; sourceTree = "<group>"; };
+		08CC044D1A7A0C1C00C3E6EF /* WWDChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDChartDelegate.h; sourceTree = "<group>"; };
+		08CC04501A7A181600C3E6EF /* MyBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBar.h; sourceTree = "<group>"; };
+		08CC04511A7A181600C3E6EF /* MyBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBar.m; sourceTree = "<group>"; };
+		08CC04531A7A28DF00C3E6EF /* MyBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBarChart.h; sourceTree = "<group>"; };
+		08CC04541A7A28DF00C3E6EF /* MyBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBarChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,9 @@
 		0803F8611A786B3B0069A51F /* WWDChart */ = {
 			isa = PBXGroup;
 			children = (
+				08CC04431A7A02D500C3E6EF /* barChart */,
+				08CC04421A7A029700C3E6EF /* cutomSegues */,
+				0803F8881A7870CE0069A51F /* circleChart */,
 				0803F8661A786B3B0069A51F /* AppDelegate.h */,
 				0803F8671A786B3B0069A51F /* AppDelegate.m */,
 				0803F8691A786B3B0069A51F /* ViewController.h */,
@@ -117,6 +142,42 @@
 				0803F87D1A786B3B0069A51F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0803F8881A7870CE0069A51F /* circleChart */ = {
+			isa = PBXGroup;
+			children = (
+				0803F8891A7870E60069A51F /* WWDCircleChart.h */,
+				0803F88A1A7870E60069A51F /* WWDCircleChart.m */,
+				0803F88C1A787E260069A51F /* WWDCircleChartViewController.h */,
+				0803F88D1A787E260069A51F /* WWDCircleChartViewController.m */,
+			);
+			name = circleChart;
+			sourceTree = "<group>";
+		};
+		08CC04421A7A029700C3E6EF /* cutomSegues */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cutomSegues;
+			sourceTree = "<group>";
+		};
+		08CC04431A7A02D500C3E6EF /* barChart */ = {
+			isa = PBXGroup;
+			children = (
+				08CC04441A7A02EC00C3E6EF /* BarChartViewController.h */,
+				08CC04451A7A02EC00C3E6EF /* BarChartViewController.m */,
+				08CC04471A7A034700C3E6EF /* WWDBar.h */,
+				08CC04481A7A034700C3E6EF /* WWDBar.m */,
+				08CC044A1A7A0C0800C3E6EF /* WWDBarChart.h */,
+				08CC044B1A7A0C0800C3E6EF /* WWDBarChart.m */,
+				08CC044D1A7A0C1C00C3E6EF /* WWDChartDelegate.h */,
+				08CC04501A7A181600C3E6EF /* MyBar.h */,
+				08CC04511A7A181600C3E6EF /* MyBar.m */,
+				08CC04531A7A28DF00C3E6EF /* MyBarChart.h */,
+				08CC04541A7A28DF00C3E6EF /* MyBarChart.m */,
+			);
+			name = barChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CC04521A7A181600C3E6EF /* MyBar.m in Sources */,
+				0803F88E1A787E260069A51F /* WWDCircleChartViewController.m in Sources */,
+				08CC044C1A7A0C0800C3E6EF /* WWDBarChart.m in Sources */,
 				0803F86B1A786B3B0069A51F /* ViewController.m in Sources */,
+				08CC04551A7A28DF00C3E6EF /* MyBarChart.m in Sources */,
+				08CC04491A7A034700C3E6EF /* WWDBar.m in Sources */,
+				0803F88B1A7870E60069A51F /* WWDCircleChart.m in Sources */,
+				08CC04461A7A02EC00C3E6EF /* BarChartViewController.m in Sources */,
 				0803F8681A786B3B0069A51F /* AppDelegate.m in Sources */,
 				0803F8651A786B3B0069A51F /* main.m in Sources */,
 			);
@@ -344,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WWDChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WWDChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +482,7 @@
 				0803F8841A786B3B0069A51F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0803F8851A786B3B0069A51F /* Build configuration list for PBXNativeTarget "WWDChartTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +491,7 @@
 				0803F8871A786B3B0069A51F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
