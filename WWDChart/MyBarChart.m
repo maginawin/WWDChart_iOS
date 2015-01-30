@@ -110,7 +110,6 @@
             yLabel.text = [yArray objectAtIndex:i];
             [self addSubview:yLabel];
             [_myYLables addObject:yLabel];
-            NSLog(@"y");
         }
     }
 }
