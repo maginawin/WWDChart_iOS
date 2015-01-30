@@ -17,8 +17,6 @@
 		0803F88B1A7870E60069A51F /* WWDCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803F88A1A7870E60069A51F /* WWDCircleChart.m */; };
 		0803F88E1A787E260069A51F /* WWDCircleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803F88D1A787E260069A51F /* WWDCircleChartViewController.m */; };
 		08CC04461A7A02EC00C3E6EF /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC04451A7A02EC00C3E6EF /* BarChartViewController.m */; };
-		08CC04491A7A034700C3E6EF /* WWDBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC04481A7A034700C3E6EF /* WWDBar.m */; };
-		08CC044C1A7A0C0800C3E6EF /* WWDBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC044B1A7A0C0800C3E6EF /* WWDBarChart.m */; };
 		08CC04521A7A181600C3E6EF /* MyBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC04511A7A181600C3E6EF /* MyBar.m */; };
 		08CC04551A7A28DF00C3E6EF /* MyBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CC04541A7A28DF00C3E6EF /* MyBarChart.m */; };
 /* End PBXBuildFile section */
@@ -53,11 +51,6 @@
 		0803F88D1A787E260069A51F /* WWDCircleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDCircleChartViewController.m; sourceTree = "<group>"; };
 		08CC04441A7A02EC00C3E6EF /* BarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
 		08CC04451A7A02EC00C3E6EF /* BarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
-		08CC04471A7A034700C3E6EF /* WWDBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDBar.h; sourceTree = "<group>"; };
-		08CC04481A7A034700C3E6EF /* WWDBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDBar.m; sourceTree = "<group>"; };
-		08CC044A1A7A0C0800C3E6EF /* WWDBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDBarChart.h; sourceTree = "<group>"; };
-		08CC044B1A7A0C0800C3E6EF /* WWDBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWDBarChart.m; sourceTree = "<group>"; };
-		08CC044D1A7A0C1C00C3E6EF /* WWDChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWDChartDelegate.h; sourceTree = "<group>"; };
 		08CC04501A7A181600C3E6EF /* MyBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBar.h; sourceTree = "<group>"; };
 		08CC04511A7A181600C3E6EF /* MyBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBar.m; sourceTree = "<group>"; };
 		08CC04531A7A28DF00C3E6EF /* MyBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBarChart.h; sourceTree = "<group>"; };
@@ -167,11 +160,6 @@
 			children = (
 				08CC04441A7A02EC00C3E6EF /* BarChartViewController.h */,
 				08CC04451A7A02EC00C3E6EF /* BarChartViewController.m */,
-				08CC04471A7A034700C3E6EF /* WWDBar.h */,
-				08CC04481A7A034700C3E6EF /* WWDBar.m */,
-				08CC044A1A7A0C0800C3E6EF /* WWDBarChart.h */,
-				08CC044B1A7A0C0800C3E6EF /* WWDBarChart.m */,
-				08CC044D1A7A0C1C00C3E6EF /* WWDChartDelegate.h */,
 				08CC04501A7A181600C3E6EF /* MyBar.h */,
 				08CC04511A7A181600C3E6EF /* MyBar.m */,
 				08CC04531A7A28DF00C3E6EF /* MyBarChart.h */,
@@ -282,10 +270,8 @@
 			files = (
 				08CC04521A7A181600C3E6EF /* MyBar.m in Sources */,
 				0803F88E1A787E260069A51F /* WWDCircleChartViewController.m in Sources */,
-				08CC044C1A7A0C0800C3E6EF /* WWDBarChart.m in Sources */,
 				0803F86B1A786B3B0069A51F /* ViewController.m in Sources */,
 				08CC04551A7A28DF00C3E6EF /* MyBarChart.m in Sources */,
-				08CC04491A7A034700C3E6EF /* WWDBar.m in Sources */,
 				0803F88B1A7870E60069A51F /* WWDCircleChart.m in Sources */,
 				08CC04461A7A02EC00C3E6EF /* BarChartViewController.m in Sources */,
 				0803F8681A786B3B0069A51F /* AppDelegate.m in Sources */,

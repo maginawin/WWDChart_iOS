@@ -15,7 +15,7 @@
 @property (nonatomic) CGFloat barValue;
 
 /** 初始化 */
-- (id)initWithFrame:(CGRect)frame andStrokeColor:(UIColor*)strokeColor bgColor:(UIColor*)bgColor barWidth:(CGFloat)barWidth;
+- (id)initWithFrame:(CGRect)frame andStrokeColor:(UIColor*)strokeColor bgColor:(UIColor*)bgColor barWidth:(CGFloat)barWidth withGrade:(BOOL)grade theColor:(UIColor*)gradeColor;
 
 /** 0.0 ~ 1.0 之间的任意 CGFloat */
 - (void)updateBarValue:(CGFloat)value;

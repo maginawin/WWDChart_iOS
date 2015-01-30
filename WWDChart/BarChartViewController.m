@@ -7,7 +7,6 @@
 //
 
 #import "BarChartViewController.h"
-#import "MyBar.h"
 #import "MyBarChart.h"
 
 @interface BarChartViewController ()
@@ -20,25 +19,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    _barChart = [[MyBarChart alloc] initWithFrame:CGRectMake(0, 80, 320, 160)];
+
+    _barChart = [[MyBarChart alloc] initWithFrame:CGRectMake(0, 80, 320, 320)];
     _barChart.backgroundColor = [UIColor whiteColor];
-    [_barChart setupCounts:7 xyAxisColor:[UIColor redColor] labelColor:[UIColor grayColor] barColor:[UIColor blueColor] barBgColor:[UIColor lightGrayColor]];
+    [_barChart setupCounts:7 xyAxisColor:[UIColor darkGrayColor]  yArray:@[@"0", @"2500", @"5000", @"7500", @"10000"] labelColor:[UIColor darkTextColor] barColor:[UIColor purpleColor] barBgColor:[UIColor lightGrayColor] barGrade:YES gradeColor:[UIColor whiteColor]];
     [self.view addSubview:_barChart];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    
-//    NSTimer* timer = [NSTimer timerWithTimeInterval:1.0 target:self selector:@selector(updateBarValue) userInfo:nil repeats:YES];
-//    [timer fire];
-    [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateBarValue) userInfo:nil repeats:YES];
-    
+    [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateBarValue) userInfo:nil repeats:YES];    
 }
 
 - (void)updateBarValue {
     for (int i = 0; i < 7; i++) {
         float ra = (float)(arc4random() % 11 / 10.0);
         [[_barChart.myBars objectAtIndex:i] updateBarValue:ra];
+        [(UILabel*)[_barChart.myXLabels objectAtIndex:i] setText:[NSString stringWithFormat:@"%.1f", ra]];
     }
 }
 
