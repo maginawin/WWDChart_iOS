@@ -31,6 +31,8 @@
  */
 - (void)setupCounts:(NSInteger)counts xyAxisColor:(UIColor*)xyColor  yArray:(NSArray*)yArray labelColor:(UIColor*)labelColor barColor:(UIColor*)barColor barBgColor:(UIColor*)barBgColor barGrade:(BOOL)grade gradeColor:(UIColor*)gradeColor;
 
+- (void)updateBarValue:(CGFloat)value barXText:(NSString*)xText atIndex:(NSInteger)index;
+
 /** 添加的方法, 暂时不对公 */
 //- (void)addBar:(CGFloat)value atIndex:(NSInteger)index withXName:(NSString*)xName;
 

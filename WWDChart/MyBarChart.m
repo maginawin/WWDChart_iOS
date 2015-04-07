@@ -126,4 +126,11 @@
     [self.layer addSublayer:xLayer];
 }
 
+- (void)updateBarValue:(CGFloat)value barXText:(NSString*)xText atIndex:(NSInteger)index {
+    if (_myBars[index]) {
+        [_myBars[index] updateBarValue:value];
+        [(UILabel*)[_myXLabels objectAtIndex:index] setText:xText];
+    }
+}
+
 @end

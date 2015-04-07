@@ -33,8 +33,9 @@
 - (void)updateBarValue {
     for (int i = 0; i < 7; i++) {
         float ra = (float)(arc4random() % 11 / 10.0);
-        [[_barChart.myBars objectAtIndex:i] updateBarValue:ra];
-        [(UILabel*)[_barChart.myXLabels objectAtIndex:i] setText:[NSString stringWithFormat:@"%.1f", ra]];
+//        [[_barChart.myBars objectAtIndex:i] updateBarValue:ra];
+//        [(UILabel*)[_barChart.myXLabels objectAtIndex:i] setText:[NSString stringWithFormat:@"%.1f", ra]];
+        [_barChart updateBarValue:ra barXText:[NSString stringWithFormat:@"%.1f", ra] atIndex:i];
     }
 }
 
